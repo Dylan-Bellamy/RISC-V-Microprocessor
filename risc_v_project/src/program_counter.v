@@ -9,7 +9,7 @@
 module program_counter(
     input clk,
     input reset,
-    output [31:0] pc
+    output reg [31:0] pc
 );
     always @(posedge clk) begin
         if (reset) begin

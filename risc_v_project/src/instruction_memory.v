@@ -5,7 +5,7 @@
         - address: Given by program counter to get instruction at memory location
         - instruction: Instruction at pc address
 */
-module instruction_memory (
+module instruction_memory(
     input [31:0] address,
     output [31:0] instruction
 );
